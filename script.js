@@ -5,14 +5,12 @@ function count(){
 		document.getElementById("main").innerHTML+="You take one down pass it around, "+(i-1)+" bottles of beer on the wall ";
 		document.getElementById("main").innerHTML+="<br/>"
 	}
-		if(i==2){
-			document.getElementById("main").innerHTML+="<br/>"
-			document.getElementById("main").innerHTML+="You take one down pass it around, "+(i-1)+" bottle of beer on the wall ";
-		    document.getElementById("main").innerHTML+="<br/>"
-		}
-		else if(i==1){
-			document.getElementById("main").innerHTML+="<br/>"
-			document.getElementById("main").innerHTML+="Yyyyyou take one down pass it around, "+(i-1)+" bottle of beer on the wall ";
-		    document.getElementById("main").innerHTML+="<br/>"
-		}
+		document.getElementById("main").innerHTML+="<br />"+"2 bottles of beer on the wall, 2 bottles of beer";
+		document.getElementById("main").innerHTML+="<br />"+"Take one down and pass it around, 1 bottle of beer on the wall";
+		document.getElementById("main").innerHTML+="<br/>"
+		document.getElementById("main").innerHTML+="<br />"+"1 bottle of beer on the wall, 1 bottle of beer";
+		document.getElementById("main").innerHTML+="<br />"+"Take one down and pass it around, no more bottles of beer on the wall";
+		document.getElementById("main").innerHTML+="<br/>"
+		document.getElementById("main").innerHTML+="<br/>"
+		document.getElementById("main").innerHTML+="<br />"+"You've had enough now.. GO HOME!!";
 }
